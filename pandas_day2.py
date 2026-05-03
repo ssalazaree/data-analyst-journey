@@ -23,3 +23,12 @@ print(df["idade"].min())
 
 print("\nOrdenar por Salário:")
 print(df.sort_values("salario", ascending=False))
+
+ricos = df[df["salario"] > 2000]
+print(ricos["nome"].to_list())
+
+print("\nOrdem por idade:")
+print(df.sort_values("idade", ascending=True))
+
+print("\nLista de nomes:")
+print(df["nome"].to_list())
