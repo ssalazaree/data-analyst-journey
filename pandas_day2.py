@@ -32,3 +32,6 @@ print(df.sort_values("idade", ascending=True))
 
 print("\nLista de nomes:")
 print(df["nome"].to_list())
+
+nomes_novos = df[df["idade"] < 30]["nome"].to_list()
+print(nomes_novos)
