@@ -68,3 +68,12 @@ Education level does not strongly predict salary. Master's degree holders have t
 - Small dataset (~50 entries)
 - No job role or seniority data
 - Possible imbalance between groups
+
+
+## 📊 Visualizations
+
+### Salary by Department
+![Salary by Department](salary_by_department.png)
+
+### Salary by Education
+![Salary by Education](salary_by_education.png)
